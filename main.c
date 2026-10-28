@@ -11,8 +11,15 @@ int main(){
         if(num > 100){
             printf("el numero es mayor a 100");
         }
-    }
-    // TODO que alguien haga el else ratas 
+        if (num == 100) {
+            printf("el numero es 100");
+        }
+        if (num < 100) {
+            printf("el numero es menor 100");
+        }
+    } else {
+        printf("el numero es negativo");
+    } 
     
     return 0;
 }
